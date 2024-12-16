@@ -1,0 +1,24 @@
+split -b 1000M compare_face_ob.tar
+
+on linux: cat xa* > compare_face_ob.tar
+on window: copy /b xa* compare_face_ob.zip
+
+#----compress file tar image------- (3,7GB > 1,3GB)
+docker save -o compare_face_ob.tar dixuson/compare_face_obfuscated
+1. install gzip 
+2. gzip -k compare_face_ob.tar
+3. to decompress: gzip -d -k compare_face_ob.tar.gz
+
+#-----obfuscate python code-------(using python 3.11)
+1. pyarmor gen -O dist -e 2000 -r src/
+2. copy file "pyarmor_runtime_000000" in ./dist to ./dist/src
+3. note: file "cascade_file" in folder "service_ai" need to be copied
+
+#-----test url with curl------
+Linux: curl -X 'POST' 'http://192.168.6.163:8422/hash_password' -H 'accept: application/json' -H 'Content-Type: application/json' -d '"abc"'
+Window: curl -X 'POST' 'http://192.168.6.163:8422/hash_password' -H 'accept:application/json' -H 'Content-Type:application/json' -d '"abc"'
+
+#------run docker compose------
+docker load -i compare_face_ob.tar
+docker compose -f docker-compose.yml --profile controller_ai_obfuscated up -d
+

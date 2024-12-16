@@ -1,0 +1,30 @@
+FROM mosaicml/pytorch:2.4.1_cpu-python3.11-ubuntu20.04
+
+RUN apt-get update 
+RUN apt-get install -y \
+        ffmpeg \
+        nano \
+        curl
+
+RUN pip install --upgrade pip
+
+WORKDIR /controller_server
+COPY requirements.txt /controller_server/requirements.txt
+COPY requirements_serving.txt /controller_server/requirements_serving.txt
+
+RUN python3.11 -m pip uninstall -y numpy
+RUN python3.11 -m pip --no-cache-dir install -r /controller_server/requirements.txt
+RUN python3.11 -m pip --no-cache-dir install -r /controller_server/requirements_serving.txt
+
+COPY ./src_obfuscated /controller_server
+
+ENV TRITONSERVER_IP=triton_server
+ENV TRITONSERVER_PORT=8001
+# ENV REDISSERVER_IP=192.168.6.142
+# ENV REDISSERVER_PORT=6400
+
+# CMD ["python3.11", "controller.py"]
+
+# docker build -t dixuson/compare_face_obfuscated --load --rm -f Dockerfile_controller_obfuscated .
+# docker run -d -p 8422:8422 --name compare_face_obfuscated dixuson/compare_face_obfuscated
+# docker run -d -p 8422:8422 -v %cd%/src/weights:/controller_server/weights --name compare_face_obfuscated dixuson/compare_face_obfuscated

@@ -1,0 +1,128 @@
+2024-12-12 14:35:57.620 | INFO     | controller:compareFace:75 - ----Duration det: 0.03348898887634277
+2024-12-12 14:35:59.088 | INFO     | controller:compareFace:93 - ----[[[0.9999284193366621, 7.158066333789041e-05]], False, '', False, (False, False, False, '')]
+2024-12-12 14:35:59.088 | INFO     | controller:compareFace:94 - ----Duration face check: 1.4677653312683105
+2024-12-12 14:35:59.088 | INFO     | controller:compareFace:96 - ----result_spoofing: [0.9999284193366621, 7.158066333789041e-05]
+2024-12-12 14:35:59.088 | INFO     | controller:compareFace:99 - ----quality_mes: 
+2024-12-12 14:35:59.097 | INFO     | controller:compareFace:123 - ----Duration reg: 0.008475065231323242
+2024-12-12 14:35:59.097 | INFO     | controller:compareFace:131 - ----similarity: 0.058837890625
+2024-12-12 14:35:59.097 | INFO     | controller:compareFace:132 - ----Total time duration: 1.510401725769043
+2024-12-12 14:35:59.729 | INFO     | controller:compareFace:75 - ----Duration det: 0.025797367095947266
+2024-12-12 14:35:59.775 | INFO     | controller:compareFace:93 - ----[[[0.9999284193366621, 7.158066333789041e-05]], False, '', False, (False, False, False, '')]
+2024-12-12 14:35:59.776 | INFO     | controller:compareFace:94 - ----Duration face check: 0.0459141731262207
+2024-12-12 14:35:59.776 | INFO     | controller:compareFace:96 - ----result_spoofing: [0.9999284193366621, 7.158066333789041e-05]
+2024-12-12 14:35:59.776 | INFO     | controller:compareFace:99 - ----quality_mes: 
+2024-12-12 14:35:59.792 | INFO     | controller:compareFace:123 - ----Duration reg: 0.016023874282836914
+2024-12-12 14:35:59.792 | INFO     | controller:compareFace:131 - ----similarity: 0.058837890625
+2024-12-12 14:35:59.792 | INFO     | controller:compareFace:132 - ----Total time duration: 0.0883636474609375
+2024-12-12 14:36:00.322 | INFO     | controller:compareFace:75 - ----Duration det: 0.025466442108154297
+2024-12-12 14:36:00.374 | INFO     | controller:compareFace:93 - ----[[[0.9999284193366621, 7.158066333789041e-05]], False, '', False, (False, False, False, '')]
+2024-12-12 14:36:00.374 | INFO     | controller:compareFace:94 - ----Duration face check: 0.05217099189758301
+2024-12-12 14:36:00.374 | INFO     | controller:compareFace:96 - ----result_spoofing: [0.9999284193366621, 7.158066333789041e-05]
+2024-12-12 14:36:00.374 | INFO     | controller:compareFace:99 - ----quality_mes: 
+2024-12-12 14:36:00.381 | INFO     | controller:compareFace:123 - ----Duration reg: 0.007280111312866211
+2024-12-12 14:36:00.382 | INFO     | controller:compareFace:131 - ----similarity: 0.058837890625
+2024-12-12 14:36:00.382 | INFO     | controller:compareFace:132 - ----Total time duration: 0.0855093002319336
+2024-12-12 14:36:04.564 | INFO     | controller:compareFace:75 - ----Duration det: 0.026955127716064453
+2024-12-12 14:36:04.639 | INFO     | controller:compareFace:93 - ----[[[0.9999284193366621, 7.158066333789041e-05]], False, '', False, (False, False, False, '')]
+2024-12-12 14:36:04.640 | INFO     | controller:compareFace:94 - ----Duration face check: 0.07499074935913086
+2024-12-12 14:36:04.640 | INFO     | controller:compareFace:96 - ----result_spoofing: [0.9999284193366621, 7.158066333789041e-05]
+2024-12-12 14:36:04.640 | INFO     | controller:compareFace:99 - ----quality_mes: 
+2024-12-12 14:36:04.649 | INFO     | controller:compareFace:123 - ----Duration reg: 0.0094757080078125
+2024-12-12 14:36:04.649 | INFO     | controller:compareFace:131 - ----similarity: 0.058837890625
+2024-12-12 14:36:04.649 | INFO     | controller:compareFace:132 - ----Total time duration: 0.11197090148925781
+2024-12-12 14:36:13.985 | INFO     | controller:compareFace:75 - ----Duration det: 0.0274045467376709
+2024-12-12 14:36:14.050 | INFO     | controller:compareFace:93 - ----[[[0.999096363411316, 0.000903636588684028]], False, '', False, (False, False, False, '')]
+2024-12-12 14:36:14.051 | INFO     | controller:compareFace:94 - ----Duration face check: 0.06591153144836426
+2024-12-12 14:36:14.051 | INFO     | controller:compareFace:96 - ----result_spoofing: [0.999096363411316, 0.000903636588684028]
+2024-12-12 14:36:14.051 | INFO     | controller:compareFace:99 - ----quality_mes: 
+2024-12-12 14:36:14.059 | INFO     | controller:compareFace:123 - ----Duration reg: 0.00853276252746582
+2024-12-12 14:36:14.060 | INFO     | controller:compareFace:131 - ----similarity: 0.2431640625
+2024-12-12 14:36:14.060 | INFO     | controller:compareFace:132 - ----Total time duration: 0.1024785041809082
+2024-12-12 14:36:23.828 | INFO     | controller:compareFace:75 - ----Duration det: 0.0462954044342041
+2024-12-12 14:36:23.898 | INFO     | controller:compareFace:93 - ----[[[0.999096363411316, 0.000903636588684028]], False, '', False, (False, False, False, '')]
+2024-12-12 14:36:23.899 | INFO     | controller:compareFace:94 - ----Duration face check: 0.0702061653137207
+2024-12-12 14:36:23.899 | INFO     | controller:compareFace:96 - ----result_spoofing: [0.999096363411316, 0.000903636588684028]
+2024-12-12 14:36:23.899 | INFO     | controller:compareFace:99 - ----quality_mes: 
+2024-12-12 14:36:23.907 | INFO     | controller:compareFace:123 - ----Duration reg: 0.008078336715698242
+2024-12-12 14:36:23.907 | INFO     | controller:compareFace:131 - ----similarity: 0.2431640625
+2024-12-12 14:36:23.907 | INFO     | controller:compareFace:132 - ----Total time duration: 0.12521052360534668
+2024-12-12 14:36:24.427 | INFO     | controller:compareFace:75 - ----Duration det: 0.03539586067199707
+2024-12-12 14:36:24.486 | INFO     | controller:compareFace:93 - ----[[[0.999096363411316, 0.000903636588684028]], False, '', False, (False, False, False, '')]
+2024-12-12 14:36:24.486 | INFO     | controller:compareFace:94 - ----Duration face check: 0.058596134185791016
+2024-12-12 14:36:24.486 | INFO     | controller:compareFace:96 - ----result_spoofing: [0.999096363411316, 0.000903636588684028]
+2024-12-12 14:36:24.486 | INFO     | controller:compareFace:99 - ----quality_mes: 
+2024-12-12 14:36:24.494 | INFO     | controller:compareFace:123 - ----Duration reg: 0.008307933807373047
+2024-12-12 14:36:24.495 | INFO     | controller:compareFace:131 - ----similarity: 0.2431640625
+2024-12-12 14:36:24.495 | INFO     | controller:compareFace:132 - ----Total time duration: 0.1029043197631836
+2024-12-12 14:36:25.003 | INFO     | controller:compareFace:75 - ----Duration det: 0.026459693908691406
+2024-12-12 14:36:25.064 | INFO     | controller:compareFace:93 - ----[[[0.999096363411316, 0.000903636588684028]], False, '', False, (False, False, False, '')]
+2024-12-12 14:36:25.064 | INFO     | controller:compareFace:94 - ----Duration face check: 0.060135841369628906
+2024-12-12 14:36:25.064 | INFO     | controller:compareFace:96 - ----result_spoofing: [0.999096363411316, 0.000903636588684028]
+2024-12-12 14:36:25.064 | INFO     | controller:compareFace:99 - ----quality_mes: 
+2024-12-12 14:36:25.071 | INFO     | controller:compareFace:123 - ----Duration reg: 0.007288455963134766
+2024-12-12 14:36:25.071 | INFO     | controller:compareFace:131 - ----similarity: 0.2431640625
+2024-12-12 14:36:25.071 | INFO     | controller:compareFace:132 - ----Total time duration: 0.0944979190826416
+2024-12-12 14:36:25.558 | INFO     | controller:compareFace:75 - ----Duration det: 0.032958984375
+2024-12-12 14:36:25.627 | INFO     | controller:compareFace:93 - ----[[[0.999096363411316, 0.000903636588684028]], False, '', False, (False, False, False, '')]
+2024-12-12 14:36:25.627 | INFO     | controller:compareFace:94 - ----Duration face check: 0.06895947456359863
+2024-12-12 14:36:25.628 | INFO     | controller:compareFace:96 - ----result_spoofing: [0.999096363411316, 0.000903636588684028]
+2024-12-12 14:36:25.628 | INFO     | controller:compareFace:99 - ----quality_mes: 
+2024-12-12 14:36:25.636 | INFO     | controller:compareFace:123 - ----Duration reg: 0.007977962493896484
+2024-12-12 14:36:25.636 | INFO     | controller:compareFace:131 - ----similarity: 0.2431640625
+2024-12-12 14:36:25.636 | INFO     | controller:compareFace:132 - ----Total time duration: 0.11052155494689941
+2024-12-12 14:36:26.081 | INFO     | controller:compareFace:75 - ----Duration det: 0.02620983123779297
+2024-12-12 14:36:26.148 | INFO     | controller:compareFace:93 - ----[[[0.999096363411316, 0.000903636588684028]], False, '', False, (False, False, False, '')]
+2024-12-12 14:36:26.149 | INFO     | controller:compareFace:94 - ----Duration face check: 0.06721019744873047
+2024-12-12 14:36:26.149 | INFO     | controller:compareFace:96 - ----result_spoofing: [0.999096363411316, 0.000903636588684028]
+2024-12-12 14:36:26.149 | INFO     | controller:compareFace:99 - ----quality_mes: 
+2024-12-12 14:36:26.156 | INFO     | controller:compareFace:123 - ----Duration reg: 0.007577180862426758
+2024-12-12 14:36:26.156 | INFO     | controller:compareFace:131 - ----similarity: 0.2431640625
+2024-12-12 14:36:26.157 | INFO     | controller:compareFace:132 - ----Total time duration: 0.10157346725463867
+2024-12-12 14:36:26.777 | INFO     | controller:compareFace:75 - ----Duration det: 0.029456615447998047
+2024-12-12 14:36:26.840 | INFO     | controller:compareFace:93 - ----[[[0.999096363411316, 0.000903636588684028]], False, '', False, (False, False, False, '')]
+2024-12-12 14:36:26.840 | INFO     | controller:compareFace:94 - ----Duration face check: 0.06303238868713379
+2024-12-12 14:36:26.840 | INFO     | controller:compareFace:96 - ----result_spoofing: [0.999096363411316, 0.000903636588684028]
+2024-12-12 14:36:26.840 | INFO     | controller:compareFace:99 - ----quality_mes: 
+2024-12-12 14:36:26.850 | INFO     | controller:compareFace:123 - ----Duration reg: 0.009218215942382812
+2024-12-12 14:36:26.850 | INFO     | controller:compareFace:131 - ----similarity: 0.2431640625
+2024-12-12 14:36:26.850 | INFO     | controller:compareFace:132 - ----Total time duration: 0.10230350494384766
+2024-12-12 14:36:27.461 | INFO     | controller:compareFace:75 - ----Duration det: 0.025250911712646484
+2024-12-12 14:36:27.521 | INFO     | controller:compareFace:93 - ----[[[0.999096363411316, 0.000903636588684028]], False, '', False, (False, False, False, '')]
+2024-12-12 14:36:27.521 | INFO     | controller:compareFace:94 - ----Duration face check: 0.06040382385253906
+2024-12-12 14:36:27.521 | INFO     | controller:compareFace:96 - ----result_spoofing: [0.999096363411316, 0.000903636588684028]
+2024-12-12 14:36:27.521 | INFO     | controller:compareFace:99 - ----quality_mes: 
+2024-12-12 14:36:27.531 | INFO     | controller:compareFace:123 - ----Duration reg: 0.009345769882202148
+2024-12-12 14:36:27.531 | INFO     | controller:compareFace:131 - ----similarity: 0.2431640625
+2024-12-12 14:36:27.531 | INFO     | controller:compareFace:132 - ----Total time duration: 0.09560608863830566
+2024-12-12 14:36:28.081 | INFO     | controller:compareFace:75 - ----Duration det: 0.03466963768005371
+2024-12-12 14:36:28.146 | INFO     | controller:compareFace:93 - ----[[[0.999096363411316, 0.000903636588684028]], False, '', False, (False, False, False, '')]
+2024-12-12 14:36:28.147 | INFO     | controller:compareFace:94 - ----Duration face check: 0.06511330604553223
+2024-12-12 14:36:28.147 | INFO     | controller:compareFace:96 - ----result_spoofing: [0.999096363411316, 0.000903636588684028]
+2024-12-12 14:36:28.147 | INFO     | controller:compareFace:99 - ----quality_mes: 
+2024-12-12 14:36:28.154 | INFO     | controller:compareFace:123 - ----Duration reg: 0.007415294647216797
+2024-12-12 14:36:28.154 | INFO     | controller:compareFace:131 - ----similarity: 0.2431640625
+2024-12-12 14:36:28.155 | INFO     | controller:compareFace:132 - ----Total time duration: 0.10782384872436523
+2024-12-12 14:36:28.677 | INFO     | controller:compareFace:75 - ----Duration det: 0.025959253311157227
+2024-12-12 14:36:28.743 | INFO     | controller:compareFace:93 - ----[[[0.999096363411316, 0.000903636588684028]], False, '', False, (False, False, False, '')]
+2024-12-12 14:36:28.743 | INFO     | controller:compareFace:94 - ----Duration face check: 0.06622123718261719
+2024-12-12 14:36:28.743 | INFO     | controller:compareFace:96 - ----result_spoofing: [0.999096363411316, 0.000903636588684028]
+2024-12-12 14:36:28.743 | INFO     | controller:compareFace:99 - ----quality_mes: 
+2024-12-12 14:36:28.750 | INFO     | controller:compareFace:123 - ----Duration reg: 0.007001161575317383
+2024-12-12 14:36:28.751 | INFO     | controller:compareFace:131 - ----similarity: 0.2431640625
+2024-12-12 14:36:28.751 | INFO     | controller:compareFace:132 - ----Total time duration: 0.09975242614746094
+2024-12-12 14:36:29.452 | INFO     | controller:compareFace:75 - ----Duration det: 0.041515350341796875
+2024-12-12 14:36:29.501 | INFO     | controller:compareFace:93 - ----[[[0.999096363411316, 0.000903636588684028]], False, '', False, (False, False, False, '')]
+2024-12-12 14:36:29.501 | INFO     | controller:compareFace:94 - ----Duration face check: 0.048986196517944336
+2024-12-12 14:36:29.501 | INFO     | controller:compareFace:96 - ----result_spoofing: [0.999096363411316, 0.000903636588684028]
+2024-12-12 14:36:29.502 | INFO     | controller:compareFace:99 - ----quality_mes: 
+2024-12-12 14:36:29.511 | INFO     | controller:compareFace:123 - ----Duration reg: 0.00920724868774414
+2024-12-12 14:36:29.511 | INFO     | controller:compareFace:131 - ----similarity: 0.2431640625
+2024-12-12 14:36:29.511 | INFO     | controller:compareFace:132 - ----Total time duration: 0.10035204887390137
+2024-12-12 14:36:30.063 | INFO     | controller:compareFace:75 - ----Duration det: 0.02549290657043457
+2024-12-12 14:36:30.112 | INFO     | controller:compareFace:93 - ----[[[0.999096363411316, 0.000903636588684028]], False, '', False, (False, False, False, '')]
+2024-12-12 14:36:30.112 | INFO     | controller:compareFace:94 - ----Duration face check: 0.04838132858276367
+2024-12-12 14:36:30.112 | INFO     | controller:compareFace:96 - ----result_spoofing: [0.999096363411316, 0.000903636588684028]
+2024-12-12 14:36:30.112 | INFO     | controller:compareFace:99 - ----quality_mes: 
+2024-12-12 14:36:30.119 | INFO     | controller:compareFace:123 - ----Duration reg: 0.0072820186614990234
+2024-12-12 14:36:30.120 | INFO     | controller:compareFace:131 - ----similarity: 0.2431640625
+2024-12-12 14:36:30.120 | INFO     | controller:compareFace:132 - ----Total time duration: 0.08174586296081543

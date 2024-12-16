@@ -1,0 +1,8 @@
+2024-12-12 18:32:10.801 | INFO     | controller:compareFace:75 - ----Duration det: 0.04197978973388672
+2024-12-12 18:32:12.232 | INFO     | controller:compareFace:93 - ----[[[0.9941795166252059, 0.005820483374794119]], False, ('. Chú ý: ảnh chụp quá sáng', '. Warning: the face in the captured photo is too bright'), False, (False, False, False, '', '')]
+2024-12-12 18:32:12.233 | INFO     | controller:compareFace:94 - ----Duration face check: 1.4311878681182861
+2024-12-12 18:32:12.233 | INFO     | controller:compareFace:96 - ----result_spoofing: [0.9941795166252059, 0.005820483374794119]
+2024-12-12 18:32:12.233 | INFO     | controller:compareFace:99 - ----quality_mes: . Chú ý: ảnh chụp quá sáng
+2024-12-12 18:32:12.242 | INFO     | controller:compareFace:123 - ----Duration reg: 0.009426116943359375
+2024-12-12 18:32:12.242 | INFO     | controller:compareFace:131 - ----similarity: 0.99755859375
+2024-12-12 18:32:12.243 | INFO     | controller:compareFace:132 - ----Total time duration: 1.4832484722137451

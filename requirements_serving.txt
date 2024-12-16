@@ -1,0 +1,12 @@
+uvicorn
+fastapi
+python-multipart
+#tritonclient[all]
+
+grpcio
+gunicorn
+
+#-----for authentication-----
+pyjwt
+passlib
+bcrypt==4.0.1

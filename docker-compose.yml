@@ -1,0 +1,91 @@
+version: '3'
+networks:
+  mynetwork_bridge:
+    driver: bridge
+services:
+  triton_server:
+    image: dixuson/tritonserver
+    container_name: triton-server1
+    restart: always
+    build:
+      dockerfile: Dockerfile_triton
+      shm_size: '4gb'
+    shm_size: "4gb"
+    ports: 
+      - "8000:8000"
+      - "8001:8001"
+      - "8002:8002"
+    volumes:
+      - .:/workspace/
+      - ./my_repository:/models
+      - ./requirements.txt:/opt/tritonserver/requirements.txt
+    networks:
+      mynetwork_bridge:
+    profiles:
+      - triton_server
+    command: tritonserver --model-repository=/models --model-control-mode=poll --repository-poll-secs=5
+
+  controller_server:
+    image: dixuson/compare_face
+    container_name: compare_face
+    restart: always
+    environment:
+      - TRITONSERVER_IP=triton_server
+      - TRITONSERVER_PORT=8001
+      - REDISSERVER_IP=192.168.6.163
+      - REDISSERVER_PORT=6400
+    build:
+      dockerfile: Dockerfile_controller
+    ports: 
+      - "8422:8422"
+    # depends_on:
+    #   - triton_server
+    volumes:
+      - ./static:/controller_server/static
+    #   - .:/workspace/
+    networks:
+      mynetwork_bridge:
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8422/healthcheck"]
+      interval: 2m30s
+      timeout: 20s
+      retries: 3
+    profiles:
+      - controller_ai
+    # command: python3 controller.py
+    command: uvicorn --workers 1 --host 0.0.0.0 --port 8422 controller:app
+
+  controller_server_obfus:
+    image: dixuson/compare_face_obfuscated
+    container_name: compare_face_obfuscated
+    restart: always
+    environment:
+      - TRITONSERVER_IP=triton_server
+      - TRITONSERVER_PORT=8001
+      - REDISSERVER_IP=192.168.6.163
+      - REDISSERVER_PORT=6400
+    build:
+      dockerfile: Dockerfile_controller
+    ports: 
+      - "8422:8422"
+    # depends_on:
+    #   - triton_server
+    volumes:
+      - ./static:/controller_server/static
+    #   - .:/workspace/
+    networks:
+      mynetwork_bridge:
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8422/healthcheck"]
+      interval: 2m30s
+      timeout: 20s
+      retries: 3
+    profiles:
+      - controller_ai_obfuscated
+    # command: python3 controller.py
+    command: uvicorn --workers 1 --host 0.0.0.0 --port 8422 controller:app
+
+
+# docker compose -f docker-compose.yml --profile dev1 up -d
+# docker compose -f docker-compose.yml --profile "*" up -d
+# docker compose -f docker-compose.yml --profile triton_server up -d
