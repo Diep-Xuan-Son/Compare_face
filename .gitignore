@@ -1,11 +1,12 @@
-**/__pycache__/
-*/__pycache__/*
-*/*/__pycache__
-*/*/__pycache__/*
-__pycache__
+# **/__pycache__/
+# */__pycache__/*
+# */*/__pycache__
+# */*/__pycache__/*
+__pycache__/
 /data
 /src/image_test
 /src/static/*
+src_obfuscated/
 
 
 # git rm --ignore-unmatch --cached */__pycache__/*

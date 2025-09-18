@@ -10,6 +10,7 @@ vit_pytorch
 pyyaml
 pillow
 loguru
+passlib
 
 redis
 onnx

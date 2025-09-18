@@ -64,7 +64,7 @@ class RetinanetRunnable():
 		else:
 			providers = ['CPUExecutionProvider']
 		self.sess = ort.InferenceSession(model_path, providers=devices)
-		priorbox = PriorBox(min_sizes=self.min_sizes, steps=self.steps, clip=self.clip, image_size=(self.imagesz[0], self.imagesz[1]))
+		priorbox = PriorBox(min_sizes=self.min_sizes, steps=self.steps, clip=self.clip, image_size=self.imagesz)
 		self.priors = priorbox.forward()
 		# priors = priors.to(self.device)
 

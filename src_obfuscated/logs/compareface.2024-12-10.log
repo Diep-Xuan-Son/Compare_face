@@ -1,63 +1,24 @@
-2024-12-10 14:42:48.324 | INFO     | controller:compareFace:75 - ----Duration det: 0.09328126907348633
-2024-12-10 14:42:50.381 | INFO     | controller:compareFace:93 - ----['. Warning: the face in the captured photo is too bright', [[0.9941795166252059, 0.005820483374794119]], False, False, (False, False, False, '')]
-2024-12-10 14:42:50.382 | INFO     | controller:compareFace:94 - ----Duration face check: 2.0579447746276855
-2024-12-10 14:42:50.382 | INFO     | controller:compareFace:96 - ----quality_mes: . Warning: the face in the captured photo is too bright
-2024-12-10 14:42:50.382 | INFO     | controller:compareFace:98 - ----result_spoofing: [0.9941795166252059, 0.005820483374794119]
-2024-12-10 14:42:50.389 | INFO     | controller:compareFace:123 - ----Duration reg: 0.007578134536743164
-2024-12-10 14:42:50.390 | INFO     | controller:compareFace:131 - ----similarity: 0.046630859375
-2024-12-10 14:42:50.390 | INFO     | controller:compareFace:132 - ----Total time duration: 2.1594831943511963
-2024-12-10 14:42:57.446 | INFO     | controller:compareFace:75 - ----Duration det: 0.059969425201416016
-2024-12-10 14:42:57.525 | INFO     | controller:compareFace:93 - ----['. Warning: the face in the captured photo is too bright', [[0.9941795166252059, 0.005820483374794119]], False, False, (False, False, False, '')]
-2024-12-10 14:42:57.525 | INFO     | controller:compareFace:94 - ----Duration face check: 0.07914853096008301
-2024-12-10 14:42:57.525 | INFO     | controller:compareFace:96 - ----quality_mes: . Warning: the face in the captured photo is too bright
-2024-12-10 14:42:57.525 | INFO     | controller:compareFace:98 - ----result_spoofing: [0.9941795166252059, 0.005820483374794119]
-2024-12-10 14:42:57.533 | INFO     | controller:compareFace:123 - ----Duration reg: 0.007420778274536133
-2024-12-10 14:42:57.533 | INFO     | controller:compareFace:131 - ----similarity: 0.046630859375
-2024-12-10 14:42:57.533 | INFO     | controller:compareFace:132 - ----Total time duration: 0.1471257209777832
-2024-12-10 14:43:09.665 | INFO     | controller:compareFace:75 - ----Duration det: 0.06057381629943848
-2024-12-10 14:43:09.736 | INFO     | controller:compareFace:93 - ----['', [[0.9998638321891233, 0.00013616781087668998]], False, False, (False, False, False, '')]
-2024-12-10 14:43:09.737 | INFO     | controller:compareFace:94 - ----Duration face check: 0.07175850868225098
-2024-12-10 14:43:09.737 | INFO     | controller:compareFace:96 - ----quality_mes: 
-2024-12-10 14:43:09.737 | INFO     | controller:compareFace:98 - ----result_spoofing: [0.9998638321891233, 0.00013616781087668998]
-2024-12-10 14:43:09.744 | INFO     | controller:compareFace:123 - ----Duration reg: 0.007320880889892578
-2024-12-10 14:43:09.744 | INFO     | controller:compareFace:131 - ----similarity: 0.130615234375
-2024-12-10 14:43:09.744 | INFO     | controller:compareFace:132 - ----Total time duration: 0.14023661613464355
-2024-12-10 14:43:14.950 | INFO     | controller:compareFace:75 - ----Duration det: 0.05841994285583496
-2024-12-10 14:43:15.022 | INFO     | controller:compareFace:93 - ----['', [[0.999096363411316, 0.000903636588684028]], False, False, (True, False, False, 'Eyes')]
-2024-12-10 14:43:15.022 | INFO     | controller:compareFace:94 - ----Duration face check: 0.07182526588439941
-2024-12-10 14:43:15.022 | INFO     | controller:compareFace:96 - ----quality_mes: 
-2024-12-10 14:43:15.023 | INFO     | controller:compareFace:98 - ----result_spoofing: [0.999096363411316, 0.000903636588684028]
-2024-12-10 14:43:40.789 | INFO     | controller:compareFace:75 - ----Duration det: 0.060647010803222656
-2024-12-10 14:43:40.868 | INFO     | controller:compareFace:93 - ----['', [[0.9999871103957163, 1.2889604283735814e-05]], False, True, (True, True, True, 'Eyes, nose, mouth')]
-2024-12-10 14:43:40.868 | INFO     | controller:compareFace:94 - ----Duration face check: 0.07885026931762695
-2024-12-10 14:43:40.868 | INFO     | controller:compareFace:96 - ----quality_mes: 
-2024-12-10 14:43:40.868 | INFO     | controller:compareFace:98 - ----result_spoofing: [0.9999871103957163, 1.2889604283735814e-05]
-2024-12-10 14:43:47.704 | INFO     | controller:compareFace:75 - ----Duration det: 0.061765193939208984
-2024-12-10 14:43:47.782 | INFO     | controller:compareFace:93 - ----['', [[0.9999940159176468, 5.984082353237667e-06]], False, False, (False, False, False, '')]
-2024-12-10 14:43:47.782 | INFO     | controller:compareFace:94 - ----Duration face check: 0.07785558700561523
-2024-12-10 14:43:47.782 | INFO     | controller:compareFace:96 - ----quality_mes: 
-2024-12-10 14:43:47.782 | INFO     | controller:compareFace:98 - ----result_spoofing: [0.9999940159176468, 5.984082353237667e-06]
-2024-12-10 14:43:47.790 | INFO     | controller:compareFace:123 - ----Duration reg: 0.0077283382415771484
-2024-12-10 14:43:47.790 | INFO     | controller:compareFace:131 - ----similarity: 0.009521484375
-2024-12-10 14:43:47.790 | INFO     | controller:compareFace:132 - ----Total time duration: 0.14789271354675293
-2024-12-10 14:43:58.281 | INFO     | controller:compareFace:75 - ----Duration det: 0.05805087089538574
-2024-12-10 14:43:58.399 | INFO     | controller:compareFace:93 - ----['', [[0.999096363411316, 0.000903636588684028]], False, False, (True, False, False, 'Eyes')]
-2024-12-10 14:43:58.400 | INFO     | controller:compareFace:94 - ----Duration face check: 0.1183772087097168
-2024-12-10 14:43:58.400 | INFO     | controller:compareFace:96 - ----quality_mes: 
-2024-12-10 14:43:58.400 | INFO     | controller:compareFace:98 - ----result_spoofing: [0.999096363411316, 0.000903636588684028]
-2024-12-10 14:44:24.147 | INFO     | controller:compareFace:75 - ----Duration det: 0.05430793762207031
-2024-12-10 14:44:24.224 | INFO     | controller:compareFace:93 - ----['. Warning: the face in the captured photo is too bright', [[0.9025067485308629, 0.09749325146913712]], False, False, (False, False, False, '')]
-2024-12-10 14:44:24.224 | INFO     | controller:compareFace:94 - ----Duration face check: 0.0766148567199707
-2024-12-10 14:44:24.224 | INFO     | controller:compareFace:96 - ----quality_mes: . Warning: the face in the captured photo is too bright
-2024-12-10 14:44:24.224 | INFO     | controller:compareFace:98 - ----result_spoofing: [0.9025067485308629, 0.09749325146913712]
-2024-12-10 14:44:24.232 | INFO     | controller:compareFace:123 - ----Duration reg: 0.007627725601196289
-2024-12-10 14:44:24.232 | INFO     | controller:compareFace:131 - ----similarity: 0.154296875
-2024-12-10 14:44:24.232 | INFO     | controller:compareFace:132 - ----Total time duration: 0.13911676406860352
-2024-12-10 14:44:30.152 | INFO     | controller:compareFace:75 - ----Duration det: 0.05531954765319824
-2024-12-10 14:44:30.242 | INFO     | controller:compareFace:93 - ----['. Warning: the face in the captured photo is too bright', [[0.9025067485308629, 0.09749325146913712]], False, False, (False, False, False, '')]
-2024-12-10 14:44:30.242 | INFO     | controller:compareFace:94 - ----Duration face check: 0.08991432189941406
-2024-12-10 14:44:30.242 | INFO     | controller:compareFace:96 - ----quality_mes: . Warning: the face in the captured photo is too bright
-2024-12-10 14:44:30.242 | INFO     | controller:compareFace:98 - ----result_spoofing: [0.9025067485308629, 0.09749325146913712]
-2024-12-10 14:44:30.249 | INFO     | controller:compareFace:123 - ----Duration reg: 0.007207155227661133
-2024-12-10 14:44:30.249 | INFO     | controller:compareFace:131 - ----similarity: 0.9990234375
-2024-12-10 14:44:30.249 | INFO     | controller:compareFace:132 - ----Total time duration: 0.15299463272094727
+2024-12-10 17:02:16.136 | INFO     | controller:compareFace:75 - ----Duration det: 0.06590867042541504
+2024-12-10 17:02:18.131 | INFO     | controller:compareFace:93 - ----['. Warning: the face in the captured photo is too bright', [[0.9025067485308629, 0.09749325146913712]], False, False, (False, False, False, '')]
+2024-12-10 17:02:18.131 | INFO     | controller:compareFace:94 - ----Duration face check: 1.9942994117736816
+2024-12-10 17:02:18.131 | INFO     | controller:compareFace:96 - ----quality_mes: . Warning: the face in the captured photo is too bright
+2024-12-10 17:02:18.131 | INFO     | controller:compareFace:98 - ----result_spoofing: [0.9025067485308629, 0.09749325146913712]
+2024-12-10 17:02:18.140 | INFO     | controller:compareFace:123 - ----Duration reg: 0.008803129196166992
+2024-12-10 17:02:18.140 | INFO     | controller:compareFace:131 - ----similarity: 0.9990234375
+2024-12-10 17:02:18.140 | INFO     | controller:compareFace:132 - ----Total time duration: 2.069676160812378
+2024-12-11 08:50:04.730 | INFO     | controller:compareFace:75 - ----Duration det: 0.06054282188415527
+2024-12-11 08:50:04.828 | INFO     | controller:compareFace:93 - ----['. Warning: the face in the captured photo is too bright', [[0.9025067485308629, 0.09749325146913712]], False, False, (False, False, False, '')]
+2024-12-11 08:50:04.829 | INFO     | controller:compareFace:94 - ----Duration face check: 0.0790245532989502
+2024-12-11 08:50:04.829 | INFO     | controller:compareFace:96 - ----quality_mes: . Warning: the face in the captured photo is too bright
+2024-12-11 08:50:04.829 | INFO     | controller:compareFace:98 - ----result_spoofing: [0.9025067485308629, 0.09749325146913712]
+2024-12-11 08:50:04.840 | INFO     | controller:compareFace:123 - ----Duration reg: 0.011264801025390625
+2024-12-11 08:50:04.840 | INFO     | controller:compareFace:131 - ----similarity: 0.9990234375
+2024-12-11 08:50:04.840 | INFO     | controller:compareFace:132 - ----Total time duration: 0.17123746871948242
+2024-12-11 08:50:12.365 | INFO     | controller:compareFace:75 - ----Duration det: 0.0528414249420166
+2024-12-11 08:50:12.445 | INFO     | controller:compareFace:93 - ----['. Warning: the face in the captured photo is too bright', [[0.9025067485308629, 0.09749325146913712]], False, False, (False, False, False, '')]
+2024-12-11 08:50:12.445 | INFO     | controller:compareFace:94 - ----Duration face check: 0.07951664924621582
+2024-12-11 08:50:12.445 | INFO     | controller:compareFace:96 - ----quality_mes: . Warning: the face in the captured photo is too bright
+2024-12-11 08:50:12.445 | INFO     | controller:compareFace:98 - ----result_spoofing: [0.9025067485308629, 0.09749325146913712]
+2024-12-11 08:50:12.460 | INFO     | controller:compareFace:123 - ----Duration reg: 0.015056610107421875
+2024-12-11 08:50:12.460 | INFO     | controller:compareFace:131 - ----similarity: 0.9990234375
+2024-12-11 08:50:12.460 | INFO     | controller:compareFace:132 - ----Total time duration: 0.1479508876800537
